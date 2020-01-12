@@ -6,8 +6,11 @@ def turn_count(board)
 else
   counter += 0
   end
-puts counter
 end
+if counter % 2 = 0
+  "X"
+else "O"
+
 end
 
 turn_count(["O", " ", " ", " ", "X", " ", " ", " ", "X"])
