@@ -15,6 +15,7 @@ def current_player
   "X"
 else "O"
 end
+end
 
 puts turn_count(["O", " ", " ", " ", "X", " ", " ", " ", "X"])
 
