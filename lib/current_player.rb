@@ -3,12 +3,11 @@ def turn_count(board)
   board.each do |x|
   if x == "O" || x == "X"
   counter += 1
-else
+  else
   counter += 0
   end
-  push counter
 end
-
+  push counter
 end
 
 def current_player
