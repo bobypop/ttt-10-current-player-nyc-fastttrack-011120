@@ -7,7 +7,7 @@ else
   counter += 0
   end
 end
-if counter % 2 = 0
+if counter % 2 == 0
   "X"
 else "O"
 
