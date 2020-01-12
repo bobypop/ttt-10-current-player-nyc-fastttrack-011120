@@ -7,10 +7,13 @@ else
   counter += 0
   end
 end
-if counter % 2 == 0
+
+end
+
+def current_player
+  if counter % 2 == 0
   "X"
 else "O"
-end
 end
 
 puts turn_count(["O", " ", " ", " ", "X", " ", " ", " ", "X"])
