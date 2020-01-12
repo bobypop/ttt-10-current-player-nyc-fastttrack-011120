@@ -10,7 +10,7 @@ end
 if counter % 2 == 0
   "X"
 else "O"
-
+end
 end
 
 turn_count(["O", " ", " ", " ", "X", " ", " ", " ", "X"])
